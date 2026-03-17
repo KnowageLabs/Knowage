@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  --font-sans: 'Poppins', sans-serif;
+  --font-weight-bold: 600;
+
+  --color-brand-50: #fff0fa;
+  --color-brand-100: #fcdcf3;
+  --color-brand-200: #f8bae7;
+  --color-brand-300: #f089d1;
+  --color-brand-400: #e453b5;
+  --color-brand-500: #d72b9b;
+  --color-brand-600: #c51b88;
+  --color-brand-700: #a11772;
+  --color-brand-800: #781255;
+  --color-brand-900: #4f0c38;
+  --color-brand-950: #300722;
+}
+
+:root {
+  --ui-bg: #fcfcfc;
+}
+
+.dark {
+  --ui-bg: #090909;
+}
+
+body {
+  color: #090909;
+}
+
+.dark body {
+  color: #fcfcfc;
+}
+
+/* Reduce UPageSection vertical padding - force override */
+section.py-16,
+section.py-24,
+section[class*="py-16"],
+section[class*="py-24"],
+section[class*="sm:py-24"],
+section[class*="sm:py-32"] {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+@media (min-width: 640px) {
+  section.py-16,
+  section.py-24,
+  section[class*="py-16"],
+  section[class*="py-24"],
+  section[class*="sm:py-24"],
+  section[class*="sm:py-32"] {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
