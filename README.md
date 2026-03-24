@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="http://knowage-suite.readthedocs.io/">📚 Docs</a> ·
   <a href="https://www.knowage-suite.com/site/home/">🌐 Website</a> ·
+  <a href="http://knowage-suite.readthedocs.io/">📚 Docs</a> ·
   <a href="https://hub.docker.com/r/knowagelabs/knowage-server-docker/">🐳 Docker Hub</a> ·
   <a href="./ROADMAP.md">🗺️ Roadmap</a>
 </p>
@@ -126,4 +126,4 @@ No build needed — run the `Knowage-Python` module directly as a standalone pro
 
 ## License
 
-[AGPL v3](LICENSE) © 2026 Engineering Ingegneria Informatica S.p.A.
+[AGPL v3](LICENSE) © 2026 [Engineering Ingegneria Informatica S.p.A.](https://www.eng.it)
