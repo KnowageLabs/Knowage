@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="assets/Knowage-light.svg" alt="Knowage" width="300"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/Knowage-light.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/Knowage-dark.svg">
+    <img alt="Knowage" src="assets/Knowage-light.svg" width="300">
+  </picture>
 </p>
 
 <p align="center">
