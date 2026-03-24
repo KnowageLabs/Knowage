@@ -1,83 +1,66 @@
 <p align="center">
-<img src="https://www.knowage-suite.com/site/wp-content/uploads/2016/03/KNOWAGE_logo_color.png">
+  <img src="assets/Knowage-light.svg" alt="Knowage" width="300"/>
 </p>
-
 
 # Roadmap
 
-Knowage: The Open-Source Suite for Business Analytics. It ensures the freedom to access the source code and collaborate in an international community with industry leaders.
+Knowage evolves continuously to meet the latest analytical needs, driven by innovation and research from the open-source community. This roadmap outlines upcoming features and improvements to help users and contributors stay aligned with future developments.
 
-Knowage evolves continuously to meet the latest analytical needs, driven by innovation and research from the open-source community. Everyone is invited to join the community effort contributing on the source code.
+Everyone is invited to join the effort — contributions on the source code are always welcome! 🙌
 
-This roadmap outlines the upcoming features and improvements planned for Knowage, helping users and contributors stay aligned with future developments.
+---
 
-## Short term
+## ✅ Released — v9.0
 
-The following list of features is planned to be addressed in the short term, by Q4 2025 (**9.0** Release):
+> **New Dashboard** — The GUI has been completely redesigned for improved usability and response times.
 
-Version **9.0** of KNOWAGE introduces the following new features compared to version 8.1:
+<details>
+<summary><strong>Dashboard enhancements</strong></summary>
 
-* **New Dashboard**: The GUI has been completely redesigned to improve usability and response times. Additionally, the following features have been added:
+- **New Charts** — Expanded gallery with Bubble, Funnel, Dumbbell, Activity, Pictorial, Sankey, StreamGraph, PacketBubble, Scatter, and Waterfall
+- **Themes Management** — Define and share themes across dashboards for consistent branding
+- **New Map Widget** — Redesigned with new graphical representations, geographic layers from the Knowage catalog, and WMS/WFS support
+- **New Pivot Widget** — Flexible data analysis configurable via drag-and-drop
+- **Contextual Help** — Per-widget documentation to guide end users
+- **Custom Header** — Personalize headers with logos and titles
+- **Responsive Dashboards** — Optimized for desktop, tablet, and smartphone
+- **Selector Widget enhancements** — Customizable default values, mandatory mode, advanced cache management, optimized associative logic
 
-  - **New Charts**: Expanded chart gallery with new types such as Bubble, Funnel, Dumbbell, Activity, Pictorial, Sankey, StreamGraph, PacketBubble, Scatter, and Waterfall.
-  - **Themes Management**: Define new themes through a dedicated tool and share them across dashboards to streamline the creation of consistent dashboards.
-  - **New Map Widget**: Completely redesigned with new graphical representations and the ability to use geographic layers directly from the KNOWAGE catalog or via WMS/WFS standards.
-  - **New Pivot Widget**: Enables more flexible data analysis, configurable directly by end users through simple drag-and-drop operations.
-  - **Contextual Help**: Add a dedicated section to each widget to host documentation supporting end users in understanding the displayed data.
-  - **Custom Header**: Personalize the header with specific elements such as logos and titles, ensuring consistent branding and enhancing user experience.
-  - **Responsive Dashboards**: Allow users to access and interact with data on various devices—computers, tablets, and smartphones—ensuring optimized and consistent visualization. These dashboards provide a smooth and multi-device experience, enabling informed decision-making anywhere.
-  - **Selector Widget** Enhancements:
-    - *Customizable Default Value*: Set a default value automatically applied at first launch to filter data.
-    - *Mandatory Mode*: Define a mandatory default value, ensuring the selection cannot be removed.
-    - *Advanced Cache Management*: Optimize browser cache handling to improve selector and recurrent datasets performance.
-    - *Optimized Selections*: Enhance associative logic for more efficient selection.
+</details>
 
-* **New Dossier** Tool: Manage Office formats (PPTX and DOCX) with new graphical features and a redesigned wizard.
+- 📄 **New Dossier Tool** — Manage PPTX and DOCX formats with new graphical features and a redesigned wizard
+- 🤖 **ChatBot Integration** — Interact with EngGPT to search for analyses created in Knowage
+- 💾 **View Management** — Save and restore dashboard context from the MyRepository section
+- ⚡ **Optimized Cache** — Customizable refresh frequency and on-demand cache clearing
 
-* **ChatBot** Integration: Interact with EngGPT to search for analyses created in KNOWAGE.
+---
 
-* **View Management**: Save dashboard context information and reopen it easily from the MyRepository section in the Workspace.
+## 🔜 In progress — v9.1 _(Q1 2026)_
 
-* **Optimized Cache**: Update cached data with customizable frequency and clear cache when needed.
+**Selector Widget**
+- **Advanced Slider** — Select range extremes or distinct values
+- **Multi-Selection** — Multiple selection elements from different dataset columns, with configurable layouts (row, column, grid)
+- **Code/Description Management** — Display one value while filtering on another
 
+**Dashboard & Analytics**
+- **Series Switching** — Change displayed chart series via a dropdown directly in the widget
+- **KPI Widget** — Display KPIs inline within dashboards
+- **Container Widget** — Alternate multiple widgets within a single container
+- **New Selections & Filters Widget** — Show active driver selections directly in the widget
 
-## Medium term
+**Productivity**
+- **Dossier Evolution** — Auto-generate templates from added documents
+- **LOV Cloning** — Clone a List of Values in one click
+- **More Intuitive Navigation** — Simplified process for creating drill-through navigations
+- **Extended BM Lineage** — Visualize relationships between dashboards and datasets
+- **Guided Tour** — Interactive step-by-step onboarding for new users
 
-The following list of features is planned to be addressed in the medium term, by Q1 2026 (release **9.1**):
+---
 
+## 💬 Have ideas?
 
-* Several enhancements to the **Selector Widget**, including:
+Found something missing? Want to shape the future of Knowage?
 
-  - **Advanced Slider**: Easily select extreme values within a range or choose distinct values.
-  - **Multi-Selection**: Insert multiple selection elements within selectors using different columns from the same dataset, with customizable layouts (row, column, grid).
-  - **Code/Description** Management: Display a specific value while using another column to filter data.
-
-**Series Switching** on Charts: Change the displayed series directly within the widget through a convenient dropdown.
-
-* **Dossier Evolution**: Automatically generate templates based on added documents for more efficient and dynamic management.
-
-* **KPI Widget**: Display KPIs within the dashboard for immediate performance monitoring.
-
-* **LOV Cloning**: Easily clone a List of Values to save time and improve management.
-
-* **Extended BM Lineage**: Include datasets to easily visualize relationships between dashboards and datasets.
-
-* **More Intuitive Navigation**: Simplified and user-friendly process for creating navigations.
-
-* **New Selections** and Filters Widget: Display selections and filters set in drivers directly within the widget.
-
-* **Container Widget**: Alternately display multiple widgets within a single container.
-
-* **Guided Tour**: An interactive step-by-step tutorial upon first access to KNOWAGE for easy orientation.
-
-
-
-
-
-
-
-Any contribution in these developments is very welcome!
-
- 
-
-Knowage CE is part of the software stack managed by [OW2 Consortium](https://www.ow2.org/).
+- 💡 [Start a discussion](https://github.com/KnowageLabs/Knowage/discussions) — share early-stage ideas with the community
+- 🎯 [Open a feature request](https://github.com/KnowageLabs/Knowage/issues/new?template=feature_request.md) — for concrete, actionable proposals
+- 🔧 [Contribute](https://github.com/KnowageLabs/Knowage/blob/main/CONTRIBUTING.md) — submit a pull request on any of our repositories

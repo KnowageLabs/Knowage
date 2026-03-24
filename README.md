@@ -12,7 +12,7 @@
   <a href="http://knowage-suite.readthedocs.io/">📚 Docs</a> ·
   <a href="https://www.knowage-suite.com/site/home/">🌐 Website</a> ·
   <a href="https://hub.docker.com/r/knowagelabs/knowage-server-docker/">🐳 Docker Hub</a> ·
-  <a href="https://github.com/KnowageLabs/Knowage-Server/blob/master/ROADMAP.md">🗺️ Roadmap</a>
+  <a href="./ROADMAP.md">🗺️ Roadmap</a>
 </p>
 
 ---
